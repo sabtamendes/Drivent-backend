@@ -1,0 +1,258 @@
+[
+  {
+    "_id": "80cef308-e08d-4e08-9b16-99631603d46e",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "ea74aa32-a585-4184-9f97-1e2e28ca6379",
+    "name": "/users/",
+    "url": "localhost:4000/users/",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-02-08T00:30:24.100Z",
+    "modified": "2023-02-08T00:30:24.100Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"erick@gmail.com\",\n  \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7c0e5ab8-d86c-4663-84be-e495071d0b16",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "5936396d-96f8-4335-8eb0-ad9426c3cab6",
+    "name": "/auth/sign-in/",
+    "url": "localhost:4000/auth/sign-in/",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-02-08T00:30:24.101Z",
+    "modified": "2023-02-08T00:36:29.902Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"sabta@gmail.com\",\n  \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "78ff46b1-0600-4cbd-a952-8e1d74cc07bc",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "69bfaa2c-9057-4789-aa31-7ec82c8060bd",
+    "name": "/event/",
+    "url": "localhost:4000/event",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-02-08T00:30:24.102Z",
+    "modified": "2023-02-08T00:30:24.102Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3e6cced2-cac0-40f9-a65c-bc8fc3300658",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "94a9fd26-53d5-4b75-8e8a-53548a828224",
+    "name": "/enrollments/cep/",
+    "url": "localhost:4000/enrollments/cep?cep=59082130",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2023-02-08T00:30:24.104Z",
+    "modified": "2023-02-08T00:30:24.104Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cep",
+        "value": "59082130",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "990c1e24-e3c4-4796-8d32-742cb79b2c28",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "94a9fd26-53d5-4b75-8e8a-53548a828224",
+    "name": "/enrollments/",
+    "url": "localhost:4000/enrollments/",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2023-02-08T00:30:24.105Z",
+    "modified": "2023-02-08T00:30:24.105Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NDc1NTE5MH0.FpdCu-RUR76pNz_RSJBqE3ARlkVCJHSpHgHi2_qOA8k"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fde9f433-0c9e-4f82-9196-12ae5bd1b514",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "94a9fd26-53d5-4b75-8e8a-53548a828224",
+    "name": "/enrollments/",
+    "url": "localhost:4000/enrollments/",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2023-02-08T00:30:24.106Z",
+    "modified": "2023-02-08T17:00:43.770Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTgxNjU4OX0.hvU50fr1OS1pN-pr9JF7x90KIFkG5lOvhCqiv04wJ9U"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \"name\": \"Sabta ALencar\",\n  \"cpf\": \"07614956494\",\n  \"birthday\": \"1988-08-14T00:00:00.000Z\",\n  \"phone\": \"(84)99957-8788\",\n  \"address\": {\n    \"cep\": \"59082-130\",\n    \"street\": \"Rua Missionário Joel Carlson\",\n    \"city\": \"Natal\",\n    \"number\": \"1750\",\n    \"state\": \"RN\",\n    \"neighborhood\": \"Capim Macio\",\n    \"addressDetail\": \"prox ao Motel\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9c6c30c4-50da-4904-b80a-e4a26e19d56c",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "1972e350-0804-4e1a-81b5-7addefe7703a",
+    "name": "GET /booking",
+    "url": "localhost:4000/booking",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2023-02-08T00:31:15.016Z",
+    "modified": "2023-02-08T03:14:51.339Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTgxNjU4OX0.hvU50fr1OS1pN-pr9JF7x90KIFkG5lOvhCqiv04wJ9U"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a310a651-ffba-4225-acb2-a0d7e303a70f",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "1972e350-0804-4e1a-81b5-7addefe7703a",
+    "name": "POST  /booking",
+    "url": "localhost:4000/booking",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2023-02-08T16:11:52.390Z",
+    "modified": "2023-02-09T00:31:12.199Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTgxNjU4OX0.hvU50fr1OS1pN-pr9JF7x90KIFkG5lOvhCqiv04wJ9U"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\t\"roomId\": 5\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "fb695c1d-94ee-4cf8-80c3-2eb5acb7e1c3",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "037fd4fa-ae0d-4e36-895f-aeaa36fb87f1",
+    "name": "POST /payments/process",
+    "url": "localhost:4000/payments/process",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2023-02-08T17:07:34.591Z",
+    "modified": "2023-02-08T17:19:55.352Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTgxNjU4OX0.hvU50fr1OS1pN-pr9JF7x90KIFkG5lOvhCqiv04wJ9U"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\t\"ticketId\": 1,\n\t\"cardData\": {\n\t\t\"issuer\": \"Visa\",\n    \"number\": 2154785219,\n    \"name\": \"Sabta\",\n    \"expirationDate\": \"2023-12\",\n    \"cvv\": 123\n\t}\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6a647b6b-b181-4f61-8a4d-5a0d2660e158",
+    "colId": "fef42ffb-c488-422f-a0f0-88828af51f5e",
+    "containerId": "1972e350-0804-4e1a-81b5-7addefe7703a",
+    "name": "PUT  /:bookingId",
+    "url": "localhost:4000/booking/34",
+    "method": "PUT",
+    "sortNum": 90000,
+    "created": "2023-02-08T19:55:22.544Z",
+    "modified": "2023-02-09T00:47:00.308Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTgxNjU4OX0.hvU50fr1OS1pN-pr9JF7x90KIFkG5lOvhCqiv04wJ9U"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\t\"roomId\": 3\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
