@@ -103,6 +103,24 @@ describe("POST /booking", () => {
   });
 
   describe("when token is valid", () => {
+    //quando não tem enrollment
+    it("should respond with status 404 when there is no enrollment for given user", async () => {
+      const token = await generateValidToken();
+
+      const response = await server.get("/booking").set("Authorization", `Bearer ${token}`);
+
+      expect(response.status).toBe(httpStatus.NOT_FOUND);
+    });
+    //quando não tem ticket
+    it("should respond with status 404 when user doesnt have a ticket yet", async () => {
+      const user = await createUser();
+      const token = await generateValidToken(user);
+      await createEnrollmentWithAddress(user);
+      const response = await server.get("/booking").set("Authorization", `Bearer ${token}`);
+
+      expect(response.status).toEqual(httpStatus.NOT_FOUND);
+    });
+
     //quando não envio o roomId
     it("should respond with status 400 if room with the id given is not found", async () => {
       const user = await createUser();

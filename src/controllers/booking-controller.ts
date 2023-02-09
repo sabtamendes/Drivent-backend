@@ -43,8 +43,6 @@ function handleError(error: Error, res: Response) {
   switch (error.name) {
   case "NotFoundError":
     return res.status(httpStatus.NOT_FOUND).send();
-  case "UnauthorizedError":
-    return res.status(httpStatus.UNAUTHORIZED).send();
   case "forbidenError":
     return res.status(httpStatus.FORBIDDEN).send();
   default:
