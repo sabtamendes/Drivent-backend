@@ -20,7 +20,7 @@ export async function postBooking(req: AuthenticatedRequest, res: Response) {
 
   try {
     const id = await bookingService.postBooking(roomId, userId);
-    return res.status(httpStatus.OK).send({ bookingId: id.bookingId });
+    return res.status(httpStatus.OK).send(id);
   } catch (error) {
     return handleError(error, res);
   }
@@ -48,6 +48,6 @@ function handleError(error: Error, res: Response) {
   case "forbidenError":
     return res.status(httpStatus.FORBIDDEN).send();
   default:
-    return res.status(httpStatus.BAD_REQUEST).send({message:"caiu aqui"});
+    return res.status(httpStatus.FORBIDDEN).send();
   }
 }

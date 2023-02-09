@@ -15,8 +15,6 @@ async function getBooking(userId: number): Promise<{ id: number; Room: Room; }> 
 
 async function postBooking(roomId: number, userId: number) {
 
-    if (!roomId) throw requestError(400, "");
-
     //se não tiver inscrição
     const enrollment = await enrollmentRepository.findWithAddressByUserId(userId);
     if (!enrollment) throw forbiddenError();
@@ -32,22 +30,21 @@ async function postBooking(roomId: number, userId: number) {
     //se o quarto não existe
     if (!room) throw notFoundError();
 
-
     const roomsCapacityCount = await bookingRepository.countBooking(roomId);
 
     //fixando capacidade de alugueis do quarto
-    if (roomsCapacityCount >= room.capacity) throw forbiddenError();
+    if (roomsCapacityCount >= room.capacity) throw notFoundError();
 
-    const bookingId = await bookingRepository.createBooking(userId, roomId);
+    const {id} = await bookingRepository.createBooking(userId, roomId);
 
     return {
-        bookingId: bookingId.id
+        bookingId: id
     };
 }
 
 async function updateBooking(bookingId: number, roomId: number, userId: number) {
 
-    if (!roomId || !bookingId) throw requestError(400, "");
+   // if (!bookingId) throw requestError(400, "");
 
     const booking = await bookingRepository.findBookingById(bookingId);
     //não tem reserva, a reserva que ele quer fazer o update não é dele

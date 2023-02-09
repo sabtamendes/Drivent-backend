@@ -172,7 +172,7 @@
     "method": "POST",
     "sortNum": 80000,
     "created": "2023-02-08T16:11:52.390Z",
-    "modified": "2023-02-09T00:31:12.199Z",
+    "modified": "2023-02-09T19:42:59.963Z",
     "headers": [
       {
         "name": "Authorization",
@@ -192,7 +192,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n\t\"roomId\": 5\n}",
+      "raw": "{\n\t\"roomId\": 6\n  \n}",
       "form": []
     },
     "tests": []
@@ -230,7 +230,7 @@
     "method": "PUT",
     "sortNum": 90000,
     "created": "2023-02-08T19:55:22.544Z",
-    "modified": "2023-02-09T00:47:00.308Z",
+    "modified": "2023-02-09T19:34:44.294Z",
     "headers": [
       {
         "name": "Authorization",
@@ -250,7 +250,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n\t\"roomId\": 3\n}",
+      "raw": "{\n\t\"roomId\": 5\n}",
       "form": []
     },
     "tests": []
