@@ -26,7 +26,7 @@ async function countBooking(roomId: number): Promise<number> {
     return await prisma.booking.count({ where: { roomId } });
 }
 
-async function updateBooking(bookingId:number,roomId:number) {
+async function updateBooking(bookingId:number,roomId:number){
     return await prisma.booking.update({ where: { id: bookingId }, data: { roomId } })
 }
 
