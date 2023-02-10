@@ -52,7 +52,7 @@ async function updateBooking(bookingId: number, roomId: number, userId: number) 
   if (!booking || booking.userId !== userId) throw forbiddenError();
 
   //se a pessoa está enviando o quarto para o qual ela já tem reserva
-  if (booking.id === roomId) throw forbiddenError();
+  if (booking.roomId === roomId) throw forbiddenError();
 
   const room = await bookingRepository.findRoom(roomId);
   //se o quarto existe

@@ -45,7 +45,5 @@ function handleError(error: Error, res: Response) {
     return res.status(httpStatus.NOT_FOUND).send();
   case "forbidenError":
     return res.status(httpStatus.FORBIDDEN).send();
-  default:
-    return res.status(httpStatus.FORBIDDEN).send();
   }
 }

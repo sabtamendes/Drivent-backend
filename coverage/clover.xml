@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675986464506" clover="3.2.0">
-  <project timestamp="1675986464506" name="All files">
-    <metrics statements="679" coveredstatements="603" conditionals="105" coveredconditionals="66" methods="116" coveredmethods="101" elements="900" coveredelements="770" complexity="0" loc="679" ncloc="679" packages="27" files="73" classes="73"/>
+<coverage generated="1675987965341" clover="3.2.0">
+  <project timestamp="1675987965341" name="All files">
+    <metrics statements="678" coveredstatements="608" conditionals="104" coveredconditionals="66" methods="116" coveredmethods="103" elements="898" coveredelements="777" complexity="0" loc="678" ncloc="678" packages="27" files="73" classes="73"/>
     <package name="src">
       <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/sabta/projeto22-drivent-testes/src/app.ts">
@@ -52,7 +52,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="151" coveredstatements="130" conditionals="17" coveredconditionals="10" methods="17" coveredmethods="17"/>
+      <metrics statements="150" coveredstatements="127" conditionals="16" coveredconditionals="8" methods="17" coveredmethods="17"/>
       <file name="authentication-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
@@ -61,11 +61,11 @@
         <line num="5" count="5" type="stmt"/>
         <line num="7" count="5" type="stmt"/>
         <line num="8" count="5" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
       </file>
       <file name="booking-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/booking-controller.ts">
-        <metrics statements="27" coveredstatements="25" conditionals="3" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <metrics statements="26" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -75,12 +75,12 @@
         <line num="11" count="0" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="17" count="11" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
         <line num="29" count="11" type="stmt"/>
         <line num="30" count="4" type="stmt"/>
         <line num="31" count="4" type="stmt"/>
@@ -89,26 +89,25 @@
         <line num="35" count="4" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
-        <line num="43" count="6" type="cond" truecount="2" falsecount="1"/>
-        <line num="45" count="4" type="stmt"/>
+        <line num="43" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="5" type="stmt"/>
         <line num="47" count="2" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/enrollments-controller.ts">
-        <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="20" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
         <line num="31" count="11" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
@@ -118,33 +117,33 @@
         <line num="39" count="1" type="stmt"/>
       </file>
       <file name="events-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/events-controller.ts">
-        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/hotel-controller.ts">
         <metrics statements="21" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
         <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="30" count="1" type="stmt"/>
         <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -163,38 +162,38 @@
         <line num="8" count="11" type="stmt"/>
       </file>
       <file name="payments-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/payments-controller.ts">
-        <metrics statements="28" coveredstatements="20" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="28" coveredstatements="18" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
         <line num="29" count="2" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
-        <line num="36" count="2" type="cond" truecount="3" falsecount="0"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="41" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="36" count="2" type="cond" truecount="2" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="47" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="48" count="0" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
       </file>
       <file name="tickets-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/tickets-controller.ts">
-        <metrics statements="22" coveredstatements="20" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="22" coveredstatements="19" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -203,19 +202,19 @@
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
         <line num="32" count="3" type="stmt"/>
-        <line num="34" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
       <file name="users-controller.ts" path="/home/sabta/projeto22-drivent-testes/src/controllers/users-controller.ts">
@@ -233,16 +232,16 @@
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="26" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
+      <metrics statements="26" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6"/>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
       </file>
       <file name="cannot-list-hotels-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/cannot-list-hotels-error.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="conflict-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -268,7 +267,7 @@
       <file name="invalid-data-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="7" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
       </file>
       <file name="invalid-email-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/invalid-email-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -278,7 +277,7 @@
       <file name="not-found-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="17" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -288,7 +287,7 @@
       <file name="unauthorized-error.ts" path="/home/sabta/projeto22-drivent-testes/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="43" type="stmt"/>
+        <line num="4" count="42" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -300,18 +299,18 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="73" type="stmt"/>
-        <line num="10" count="73" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="61" type="stmt"/>
-        <line num="13" count="61" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="61" type="stmt"/>
-        <line num="16" count="61" type="stmt"/>
-        <line num="18" count="49" type="stmt"/>
-        <line num="23" count="49" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="30" type="stmt"/>
-        <line num="27" count="30" type="stmt"/>
+        <line num="9" count="71" type="stmt"/>
+        <line num="10" count="71" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="59" type="stmt"/>
+        <line num="13" count="59" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="59" type="stmt"/>
+        <line num="16" count="59" type="stmt"/>
+        <line num="18" count="47" type="stmt"/>
+        <line num="23" count="47" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="29" type="stmt"/>
+        <line num="27" count="29" type="stmt"/>
         <line num="29" count="12" type="stmt"/>
-        <line num="34" count="43" type="stmt"/>
+        <line num="34" count="42" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/sabta/projeto22-drivent-testes/src/middlewares/error-handling-middleware.ts">
         <metrics statements="14" coveredstatements="2" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -345,18 +344,18 @@
         <line num="10" count="11" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="26" type="stmt"/>
-        <line num="20" count="26" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="19" type="stmt"/>
-        <line num="23" count="23" type="stmt"/>
+        <line num="16" count="28" type="stmt"/>
+        <line num="20" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="20" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.address-repository">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/repositories/address-repository/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
         <line num="24" count="11" type="stmt"/>
       </file>
@@ -369,7 +368,7 @@
         <line num="4" count="2" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
         <line num="33" count="11" type="stmt"/>
@@ -377,12 +376,12 @@
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/repositories/enrollment-repository/index.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="11" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
         <line num="42" count="11" type="stmt"/>
@@ -399,23 +398,23 @@
       </file>
     </package>
     <package name="src.repositories.hotel-repository">
-      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/repositories/hotel-repository/index.ts">
-        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.payment-repository">
-      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/repositories/payment-repository/index.ts">
-        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
       </file>
@@ -431,17 +430,17 @@
       </file>
     </package>
     <package name="src.repositories.ticket-repository">
-      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/repositories/ticket-repository/index.ts">
-        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="30" count="5" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
         <line num="61" count="11" type="stmt"/>
         <line num="70" count="11" type="stmt"/>
       </file>
@@ -613,13 +612,13 @@
         <line num="12" count="9" type="stmt"/>
         <line num="14" count="7" type="stmt"/>
         <line num="16" count="5" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
         <line num="25" count="9" type="stmt"/>
         <line num="26" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="7" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
         <line num="33" count="5" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
         <line num="42" count="7" type="stmt"/>
         <line num="43" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="55" count="11" type="stmt"/>
@@ -628,9 +627,9 @@
       </file>
     </package>
     <package name="src.services.booking-service">
-      <metrics statements="30" coveredstatements="28" conditionals="15" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <metrics statements="30" coveredstatements="28" conditionals="15" coveredconditionals="11" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/booking-service/index.ts">
-        <metrics statements="30" coveredstatements="28" conditionals="15" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <metrics statements="30" coveredstatements="28" conditionals="15" coveredconditionals="11" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -638,14 +637,14 @@
         <line num="8" count="2" type="stmt"/>
         <line num="10" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="33" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="35" count="1" type="stmt"/>
         <line num="38" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="40" count="1" type="stmt"/>
@@ -664,9 +663,9 @@
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+      <metrics statements="28" coveredstatements="21" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/enrollments-service/index.ts">
-        <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+        <metrics statements="28" coveredstatements="21" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -678,8 +677,8 @@
         <line num="22" count="3" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
         <line num="32" count="3" type="stmt"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="37" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
@@ -691,23 +690,23 @@
         <line num="63" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="64" count="0" type="stmt"/>
         <line num="67" count="2" type="stmt"/>
-        <line num="69" count="1" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
         <line num="73" count="2" type="stmt"/>
         <line num="83" count="11" type="stmt"/>
         <line num="89" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.events-service">
-      <metrics statements="15" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/events-service/index.ts">
-        <metrics statements="15" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
         <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="20" count="3" type="stmt"/>
@@ -719,65 +718,65 @@
       </file>
     </package>
     <package name="src.services.hotels-service">
-      <metrics statements="21" coveredstatements="15" conditionals="7" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <metrics statements="21" coveredstatements="17" conditionals="7" coveredconditionals="5" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/hotels-service/index.ts">
-        <metrics statements="21" coveredstatements="15" conditionals="7" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <metrics statements="21" coveredstatements="17" conditionals="7" coveredconditionals="5" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="2" falsecount="3"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
         <line num="38" count="11" type="stmt"/>
         <line num="43" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.payments-service">
-      <metrics statements="23" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <metrics statements="23" coveredstatements="17" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="2"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/payments-service/index.ts">
-        <metrics statements="23" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="23" coveredstatements="17" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
         <line num="55" count="11" type="stmt"/>
         <line num="60" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.tickets-service">
-      <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/sabta/projeto22-drivent-testes/src/services/tickets-service/index.ts">
-        <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -786,20 +785,20 @@
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
         <line num="47" count="11" type="stmt"/>
         <line num="53" count="11" type="stmt"/>
       </file>
@@ -846,10 +845,10 @@
       <file name="prisma-utils.ts" path="/home/sabta/projeto22-drivent-testes/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="2" count="6" type="stmt"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/sabta/projeto22-drivent-testes/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -875,11 +874,11 @@
         <line num="9" count="77" type="stmt"/>
         <line num="10" count="77" type="stmt"/>
         <line num="11" count="77" type="stmt"/>
-        <line num="12" count="75" type="stmt"/>
-        <line num="13" count="70" type="stmt"/>
-        <line num="14" count="70" type="stmt"/>
-        <line num="15" count="70" type="stmt"/>
-        <line num="16" count="70" type="stmt"/>
+        <line num="12" count="74" type="stmt"/>
+        <line num="13" count="72" type="stmt"/>
+        <line num="14" count="72" type="stmt"/>
+        <line num="15" count="72" type="stmt"/>
+        <line num="16" count="72" type="stmt"/>
         <line num="17" count="58" type="stmt"/>
         <line num="18" count="58" type="stmt"/>
         <line num="19" count="58" type="stmt"/>
@@ -887,7 +886,7 @@
         <line num="23" count="48" type="cond" truecount="2" falsecount="0"/>
         <line num="24" count="48" type="stmt"/>
         <line num="26" count="48" type="stmt"/>
-        <line num="28" count="48" type="stmt"/>
+        <line num="28" count="47" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
@@ -925,7 +924,7 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
         <line num="14" count="10" type="stmt"/>
         <line num="15" count="9" type="stmt"/>
       </file>
@@ -962,13 +961,13 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
         <line num="16" count="10" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
         <line num="27" count="10" type="stmt"/>
-        <line num="28" count="9" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
         <line num="38" count="10" type="stmt"/>
-        <line num="39" count="14" type="stmt"/>
+        <line num="39" count="15" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/sabta/projeto22-drivent-testes/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
