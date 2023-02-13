@@ -14,7 +14,6 @@ import {
 } from "../factories";
 import { createBooking } from "../factories/booking-factory";
 import { TicketStatus } from "@prisma/client";
-import { prisma } from "@/config";
 
 beforeAll(async () => {
   await init();

@@ -32,7 +32,7 @@ export async function updateBooking(req: AuthenticatedRequest, res: Response) {
   const userId = req.userId as number;
 
   try {
-    const booking =  await bookingService.updateBooking(bookingId,roomId, userId);
+    const booking =  await bookingService.updateBooking(bookingId, roomId, userId);
     return res.status(httpStatus.OK).send(booking);
   } catch (error) {
     return handleError(error, res);

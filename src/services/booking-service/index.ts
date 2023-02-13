@@ -18,7 +18,7 @@ async function postBooking(roomId: number, userId: number) {
   if (!enrollment) throw forbiddenError();
 
   const ticket = await ticketRepository.findTicketByEnrollmentId(enrollment.id);
-  if(!ticket) throw notFoundError()
+  if(!ticket) throw forbiddenError();
   //se não tiver ticket se ticket é remoto e se não existe hospedagem e tiver efetuado o pagamento do ticket
   if (
     ticket.TicketType.isRemote === true ||
