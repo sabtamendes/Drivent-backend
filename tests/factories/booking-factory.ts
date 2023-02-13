@@ -13,7 +13,7 @@ export  async function findBooking(userId: number): Promise<BookingWithOnlyId & 
     });
 }
 
-export async function createBooking(userId: number,roomId: number) {
+export async function createBooking(userId: number, roomId: number) {
   return await prisma.booking.create({ data: { roomId, userId } });
 }
 

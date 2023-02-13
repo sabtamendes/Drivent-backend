@@ -36,5 +36,5 @@ export type RequestError = {
 export type BookingWithOnlyId = Omit<Booking, "userId" |"roomId"| "createdAt"|"updatedAt">
 
 export type UpCreateBooking = {
-  roomId: Number
+  roomId: number
 }

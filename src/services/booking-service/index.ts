@@ -18,7 +18,7 @@ async function postBooking(roomId: number, userId: number) {
   if (!enrollment) throw forbiddenError();
 
   const ticket = await ticketRepository.findTicketByEnrollmentId(enrollment.id);
-  if(!ticket) throw notFoundError()
+  if(!ticket) throw forbiddenError();
   //se não tiver ticket se ticket é remoto e se não existe hospedagem e tiver efetuado o pagamento do ticket
   if (
     ticket.TicketType.isRemote === true ||
@@ -52,7 +52,7 @@ async function updateBooking(bookingId: number, roomId: number, userId: number) 
   if (!booking || booking.userId !== userId) throw forbiddenError();
 
   //se a pessoa está enviando o quarto para o qual ela já tem reserva
-  if (booking.id === roomId) throw forbiddenError();
+  if (booking.roomId === roomId) throw forbiddenError();
 
   const room = await bookingRepository.findRoom(roomId);
   //se o quarto existe
