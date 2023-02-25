@@ -1,4 +1,4 @@
-# drivent-back
+# Drivent-backend
 
 Back-end for Driven.t, an event management solution.
 
